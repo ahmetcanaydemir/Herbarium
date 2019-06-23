@@ -1,0 +1,163 @@
+[
+  {
+    "isim": "ID",
+    "genislik": "100",
+    "konum": "3",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Kod",
+    "genislik": "103",
+    "konum": "0",
+    "gorunurluk": "True",
+    "sirali": "False"
+  },
+  {
+    "isim": "Familya",
+    "genislik": "103",
+    "konum": "1",
+    "gorunurluk": "True",
+    "sirali": "False"
+  },
+  {
+    "isim": "Cins",
+    "genislik": "102",
+    "konum": "2",
+    "gorunurluk": "True",
+    "sirali": "False"
+  },
+  {
+    "isim": "Tür",
+    "genislik": "103",
+    "konum": "4",
+    "gorunurluk": "True",
+    "sirali": "False"
+  },
+  {
+    "isim": "Sinonim",
+    "genislik": "93",
+    "konum": "5",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Kare",
+    "genislik": "103",
+    "konum": "6",
+    "gorunurluk": "True",
+    "sirali": "False"
+  },
+  {
+    "isim": "Türkçe Ýsim",
+    "genislik": "42",
+    "konum": "7",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Alt Tür",
+    "genislik": "44",
+    "konum": "8",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Varyete",
+    "genislik": "49",
+    "konum": "9",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Endemik",
+    "genislik": "103",
+    "konum": "10",
+    "gorunurluk": "True",
+    "sirali": "False"
+  },
+  {
+    "isim": "Tip Örneði",
+    "genislik": "46",
+    "konum": "11",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Ýl",
+    "genislik": "102",
+    "konum": "12",
+    "gorunurluk": "True",
+    "sirali": "False"
+  },
+  {
+    "isim": "Ýlçe",
+    "genislik": "103",
+    "konum": "13",
+    "gorunurluk": "True",
+    "sirali": "False"
+  },
+  {
+    "isim": "Lokalite",
+    "genislik": "77",
+    "konum": "14",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Herbaryum",
+    "genislik": "84",
+    "konum": "15",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Minimum",
+    "genislik": "52",
+    "konum": "16",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Maximum",
+    "genislik": "54",
+    "konum": "17",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Tarih",
+    "genislik": "103",
+    "konum": "18",
+    "gorunurluk": "True",
+    "sirali": "False"
+  },
+  {
+    "isim": "Koordinatlar",
+    "genislik": "71",
+    "konum": "19",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Toplayýcý",
+    "genislik": "66",
+    "konum": "20",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Teþhis Eden",
+    "genislik": "62",
+    "konum": "21",
+    "gorunurluk": "False",
+    "sirali": "False"
+  },
+  {
+    "isim": "Açýklama",
+    "genislik": "58",
+    "konum": "22",
+    "gorunurluk": "False",
+    "sirali": "False"
+  }
+]

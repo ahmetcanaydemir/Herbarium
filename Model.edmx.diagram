@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8736efdb95454b7aadaa2fc063797fb5" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="herbariumModel.city" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="herbariumModel.district" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="herbariumModel.family" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="herbariumModel.genus" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="herbariumModel.habitat" Width="1.5" PointX="3.125" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="herbariumModel.major" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="herbariumModel.species" Width="1.5" PointX="7.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="herbariumModel.speciesdetails" Width="1.5" PointX="9.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="herbariumModel.synonym" Width="1.5" PointX="9.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="herbariumModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="herbariumModel.FK__district__cityid__1EA48E88" ManuallyRouted="false" />
+        <AssociationConnector Association="herbariumModel.FK__family__majorid__1F98B2C1" ManuallyRouted="false" />
+        <AssociationConnector Association="herbariumModel.FK__genus__familyid__208CD6FA" ManuallyRouted="false" />
+        <AssociationConnector Association="herbariumModel.FK__species__genusid__2739D489" ManuallyRouted="false" />
+        <AssociationConnector Association="herbariumModel.FK__synonym__species__282DF8C2" ManuallyRouted="false" />
+        <AssociationConnector Association="herbariumModel.FK_speciesdetails_species" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="herbariumModel.neighborhood" Width="1.5" PointX="12.375" PointY="0.75" />
+        <EntityTypeShape EntityType="herbariumModel.plant" Width="1.5" PointX="5.25" PointY="7.25" />
+        <AssociationConnector Association="herbariumModel.FK_plant_district" />
+        <EntityTypeShape EntityType="herbariumModel.log" Width="1.5" PointX="11.875" PointY="9" />
+        <EntityTypeShape EntityType="herbariumModel.user" Width="1.5" PointX="9.625" PointY="9" />
+        <EntityTypeShape EntityType="herbariumModel.user_auths" Width="1.5" PointX="7.375" PointY="9.25" />
+        <AssociationConnector Association="herbariumModel.FK__log__user__0EF836A4" />
+        <AssociationConnector Association="herbariumModel.map_user_auth" />
+        <EntityTypeShape EntityType="herbariumModel.grid" Width="1.5" PointX="12.375" PointY="3.875" />
+        <AssociationConnector Association="herbariumModel.map_plant_grid" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
